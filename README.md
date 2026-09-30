@@ -2,7 +2,7 @@
 
 Specification of a web system to register chemical tanks, wells and pumps, associate tanks to wells, and monitor injection rate, estimated chemical consumption per well and tank autonomy (days until 20% of capacity) for oil production sites.
 
-**Author:** [Your full name] · [e-mail] · [LinkedIn]
+**Author:** Amanda Evangelista Lima · amandaelima1@gmail.com · [https://www.linkedin.com/in/amanda-evangelista-lima-3056b11aa/?isSelfProfile=true]
 **Version:** 1.0 · **Language of the documentation:** English
 
 ---
@@ -28,15 +28,15 @@ Suggested reading order: 03 → 04 → 05, using 01 and 02 as project context.
 
 **Interpreting the brief.** The brief is short on purpose, so I made my interpretations explicit instead of hiding them. Every assumption is recorded in the *Assumptions and Open Questions* table (document 03, section 3) with the working decision I took and the impact, so they can be validated with the client.
 
-**Traceability first.** I numbered each client statement (S1–S10) and linked it to requirements (FR/NFR), business rules (BR), user stories (US), prototype screens (SCR) and test focus. This makes it easy to check that nothing in the brief was left out and to assess the impact of changes.
+**Traceability first.** I numbered each client statement (S1–S10) and linked it to requirements (FR/NFR), business rules (BR), user stories (US), prototype screens (SCR), and test focus. This makes it easy to check that nothing in the brief was left out and to assess the impact of changes.
 
-**Business rules are data, not code.** The rule "products A and C cannot be applied to the same well" is modelled as an *incompatibility pair* and the limit of 3 products, the 20% level and alert thresholds are configurable parameters. New sites or clients will likely bring new rules.
+**Business rules are data, not code.** The rule "products A and C cannot be applied to the same well" is modelled as an *incompatibility pair*, and the limit of 3 products, the 20% level, and alert thresholds are configurable parameters. New sites or clients will likely bring new rules.
 
-**Calculations are specified, not just described.** The injection rate, the consumption estimate per well and the autonomy have formulas, edge cases (refills, stale data, zero production, tank without associations) and a worked example that can become an automated test.
+**Calculations are specified, not just described.** The injection rate, the consumption estimate per well, and the autonomy have formulas, edge cases (refills, stale data, zero production, tank without associations), and a worked example that can become an automated test.
 
-**Field users first.** Because technicians cannot install software, the system is browser-based and the prototype is designed for tablet use, with the association flow limited to a few clicks and with rule errors that explain *why* an action is blocked.
+**Field users first.** Because technicians cannot install software, the system is browser-based, and the prototype is designed for tablet use, with the association flow limited to a few clicks and with rule errors that explain *why* an action is blocked.
 
-**Methodology.** I recommend Scrum with a Sprint 0 for the implementation, and a sequential approach for the specification itself. Prioritization uses MoSCoW to define the MVP and WSJF to order the backlog, with dependencies overriding the score. The WSJF scores, KPI targets and velocity are a **simulation** and would be calibrated with the Product Owner and the team.
+**Methodology.** I recommend Scrum with a Sprint 0 for the implementation, and a sequential approach for the specification itself. Prioritization uses MoSCoW to define the MVP and WSJF to order the backlog, with dependencies overriding the score. The WSJF scores, KPI targets, and velocity are a **simulation** and would be calibrated with the Product Owner and the team.
 
 **Points I would raise with the client early:**
 - The diagram seems to show products A and C reaching the same well, which conflicts with the stated rule (OQ-03).
@@ -74,8 +74,8 @@ Suggested reading order: 03 → 04 → 05, using 01 and 02 as project context.
 
 [Write this part in your own words. Below is a draft structure to adapt; replace anything that does not reflect what you really felt.]
 
-- **What I liked:** The challenge is realistic. It mixes a physical process, business rules, an integration and different user profiles, and asks for both specification and a view of delivery (methodology, prioritization, KPIs). I enjoyed turning a short brief into calculable rules and testing them with a worked example.
-- **What was difficult / ambiguous:** Some points were not clear (units, the A/C conflict in the diagram, refill reporting). In a real project I would clarify these in a session with the client, so I documented them as open questions and explicit assumptions.
+- **What I liked:** The challenge is realistic. It mixes a physical process, business rules, an integration, and different user profiles, and asks for both specification and a view of delivery (methodology, prioritization, KPIs). I enjoyed turning a short brief into calculable rules and testing them with a worked example.
+- **What was difficult/ambiguous:** Some points were not clear (units, the A/C conflict in the diagram, refill reporting). In a real project, I would clarify these in a session with the client, so I documented them as open questions and explicit assumptions.
 - **What I would do with more time:** Validate the prototype with real users, detail the real-time integration contract and the BPMN/UML diagrams, and create a clickable mid-fidelity prototype.
 - **Feedback on the challenge:** [Optional suggestions. Examples: provide a short example of the real-time data, clarify expected delivery channel (GitHub link or e-mail attachment), and indicate whether the diagram inconsistency is intentional.]
 - **Time spent:** [approximately X hours]
@@ -84,6 +84,6 @@ Suggested reading order: 03 → 04 → 05, using 01 and 02 as project context.
 
 ## 5. Contact
 
-[Name] · [e-mail] · [phone/LinkedIn]
+Amanda Evangelista Lima · amandaelima1@gmail.com · [https://www.linkedin.com/in/amanda-evangelista-lima-3056b11aa/?isSelfProfile=true]
 
 Thank you for the opportunity. I'm happy to walk through any of the decisions in a conversation.
