@@ -1,8 +1,9 @@
 # Business Analyst Challenge – Chemical Injection Equipment Management System (CIEMS)
 
-Specification of a web system to register chemical tanks, wells and pumps, associate tanks to wells, and monitor injection rate, estimated chemical consumption per well and tank autonomy (days until 20% of capacity) for oil production sites.
+Specification of a web system to register chemical tanks, wells, and pumps, associate tanks to wells, and monitor injection rate, estimated chemical consumption per well, and tank autonomy (days until 20% of capacity) for oil production sites.
 
-**Author:** Amanda Evangelista Lima · amandaelima1@gmail.com · [https://www.linkedin.com/in/amanda-evangelista-lima-3056b11aa/?isSelfProfile=true]
+**Author:** Amanda Evangelista Lima · amandaelima1@gmail.com · https://www.linkedin.com/in/amanda-evangelista-lima-3056b11aa/?isSelfProfile=true
+
 **Version:** 1.0 · **Language of the documentation:** English
 
 ---
@@ -84,6 +85,6 @@ Suggested reading order: 03 → 04 → 05, using 01 and 02 as project context.
 
 ## 5. Contact
 
-Amanda Evangelista Lima · amandaelima1@gmail.com · [https://www.linkedin.com/in/amanda-evangelista-lima-3056b11aa/?isSelfProfile=true]
+Amanda Evangelista Lima · amandaelima1@gmail.com · https://www.linkedin.com/in/amanda-evangelista-lima-3056b11aa/?isSelfProfile=true
 
 Thank you for the opportunity. I'm happy to walk through any of the decisions in a conversation.
